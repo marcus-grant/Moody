@@ -1,0 +1,342 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2CCE4C6A1D020096000887B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCE4C691D020096000887B2 /* AppDelegate.swift */; };
+		2CCE4C6C1D020096000887B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCE4C6B1D020096000887B2 /* ViewController.swift */; };
+		2CCE4C6F1D020096000887B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CCE4C6D1D020096000887B2 /* Main.storyboard */; };
+		2CCE4C711D020096000887B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CCE4C701D020096000887B2 /* Assets.xcassets */; };
+		2CCE4C741D020096000887B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CCE4C721D020096000887B2 /* LaunchScreen.storyboard */; };
+		2CCE4C7D1D0201E9000887B2 /* Moody.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2CCE4C7B1D0201E9000887B2 /* Moody.xcdatamodeld */; };
+		2CCE4C801D0204B3000887B2 /* Mood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCE4C7F1D0204B3000887B2 /* Mood.swift */; };
+		2CCE4C821D020513000887B2 /* ManagedObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCE4C811D020513000887B2 /* ManagedObject.swift */; };
+		2CCE4C851D020A85000887B2 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCE4C841D020A85000887B2 /* Utilities.swift */; };
+		2CCE4C871D020DB3000887B2 /* MoodyStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCE4C861D020DB3000887B2 /* MoodyStack.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2CCE4C661D020096000887B2 /* Moody.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moody.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CCE4C691D020096000887B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2CCE4C6B1D020096000887B2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2CCE4C6E1D020096000887B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2CCE4C701D020096000887B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2CCE4C731D020096000887B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2CCE4C751D020096000887B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CCE4C7C1D0201E9000887B2 /* Moody.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Moody.xcdatamodel; sourceTree = "<group>"; };
+		2CCE4C7F1D0204B3000887B2 /* Mood.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mood.swift; sourceTree = "<group>"; };
+		2CCE4C811D020513000887B2 /* ManagedObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManagedObject.swift; sourceTree = "<group>"; };
+		2CCE4C841D020A85000887B2 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		2CCE4C861D020DB3000887B2 /* MoodyStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoodyStack.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2CCE4C631D020096000887B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2CCE4C5D1D020096000887B2 = {
+			isa = PBXGroup;
+			children = (
+				2CCE4C681D020096000887B2 /* Moody */,
+				2CCE4C671D020096000887B2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2CCE4C671D020096000887B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2CCE4C661D020096000887B2 /* Moody.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2CCE4C681D020096000887B2 /* Moody */ = {
+			isa = PBXGroup;
+			children = (
+				2CCE4C831D0206A2000887B2 /* Controllers */,
+				2CCE4C7E1D0203B8000887B2 /* Persistent Models */,
+				2CCE4C691D020096000887B2 /* AppDelegate.swift */,
+				2CCE4C6B1D020096000887B2 /* ViewController.swift */,
+				2CCE4C6D1D020096000887B2 /* Main.storyboard */,
+				2CCE4C701D020096000887B2 /* Assets.xcassets */,
+				2CCE4C721D020096000887B2 /* LaunchScreen.storyboard */,
+				2CCE4C751D020096000887B2 /* Info.plist */,
+				2CCE4C7B1D0201E9000887B2 /* Moody.xcdatamodeld */,
+				2CCE4C841D020A85000887B2 /* Utilities.swift */,
+			);
+			path = Moody;
+			sourceTree = "<group>";
+		};
+		2CCE4C7E1D0203B8000887B2 /* Persistent Models */ = {
+			isa = PBXGroup;
+			children = (
+				2CCE4C861D020DB3000887B2 /* MoodyStack.swift */,
+				2CCE4C7F1D0204B3000887B2 /* Mood.swift */,
+				2CCE4C811D020513000887B2 /* ManagedObject.swift */,
+			);
+			name = "Persistent Models";
+			sourceTree = "<group>";
+		};
+		2CCE4C831D0206A2000887B2 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2CCE4C651D020096000887B2 /* Moody */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CCE4C781D020096000887B2 /* Build configuration list for PBXNativeTarget "Moody" */;
+			buildPhases = (
+				2CCE4C621D020096000887B2 /* Sources */,
+				2CCE4C631D020096000887B2 /* Frameworks */,
+				2CCE4C641D020096000887B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Moody;
+			productName = Moody;
+			productReference = 2CCE4C661D020096000887B2 /* Moody.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2CCE4C5E1D020096000887B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Marcus Grant";
+				TargetAttributes = {
+					2CCE4C651D020096000887B2 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 2CCE4C611D020096000887B2 /* Build configuration list for PBXProject "Moody" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2CCE4C5D1D020096000887B2;
+			productRefGroup = 2CCE4C671D020096000887B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2CCE4C651D020096000887B2 /* Moody */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2CCE4C641D020096000887B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CCE4C741D020096000887B2 /* LaunchScreen.storyboard in Resources */,
+				2CCE4C711D020096000887B2 /* Assets.xcassets in Resources */,
+				2CCE4C6F1D020096000887B2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2CCE4C621D020096000887B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CCE4C851D020A85000887B2 /* Utilities.swift in Sources */,
+				2CCE4C871D020DB3000887B2 /* MoodyStack.swift in Sources */,
+				2CCE4C801D0204B3000887B2 /* Mood.swift in Sources */,
+				2CCE4C6C1D020096000887B2 /* ViewController.swift in Sources */,
+				2CCE4C821D020513000887B2 /* ManagedObject.swift in Sources */,
+				2CCE4C7D1D0201E9000887B2 /* Moody.xcdatamodeld in Sources */,
+				2CCE4C6A1D020096000887B2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2CCE4C6D1D020096000887B2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CCE4C6E1D020096000887B2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2CCE4C721D020096000887B2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CCE4C731D020096000887B2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2CCE4C761D020096000887B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2CCE4C771D020096000887B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2CCE4C791D020096000887B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Moody/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = marcus.grant.Moody;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2CCE4C7A1D020096000887B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Moody/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = marcus.grant.Moody;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2CCE4C611D020096000887B2 /* Build configuration list for PBXProject "Moody" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CCE4C761D020096000887B2 /* Debug */,
+				2CCE4C771D020096000887B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CCE4C781D020096000887B2 /* Build configuration list for PBXNativeTarget "Moody" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CCE4C791D020096000887B2 /* Debug */,
+				2CCE4C7A1D020096000887B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2CCE4C7B1D0201E9000887B2 /* Moody.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2CCE4C7C1D0201E9000887B2 /* Moody.xcdatamodel */,
+			);
+			currentVersion = 2CCE4C7C1D0201E9000887B2 /* Moody.xcdatamodel */;
+			path = Moody.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2CCE4C5E1D020096000887B2 /* Project object */;
+}
