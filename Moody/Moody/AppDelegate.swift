@@ -12,6 +12,9 @@ import CoreData
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
+  // This creates the singleton of the managed object context needed to work with all 
+  // managed objects necessary within the main object model
+  let managedObjectContext = createMoodyMainContext()
   var window: UIWindow?
 
 
